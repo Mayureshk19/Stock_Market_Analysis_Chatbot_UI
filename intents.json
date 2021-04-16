@@ -1,0 +1,483 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure if I can understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can provide you stock market information", "You can ask me about the performance of various companies"],
+         "context": [""]
+        },
+        {"tag": "highest profit of SHREECEM",
+         "patterns": ["Which company has the highest profit?", "What is the highest profit on a company and what is the company's name" ],
+         "responses": ["SHREECEM has the highest profit in the last 5 days with 29374.5"],
+         "context": [""]
+        },
+        {"tag": "highest profit of Nestle India",
+         "patterns": ["What is the highest profit of Nestle india" ],
+         "responses": ["NESTLEIND has the highest profit of 17074.3"],
+         "context": [""]
+        },
+        {"tag": "highest profit of Bajaj finserv",
+         "patterns": ["What is the highest profit of Bajaj finserv" ],
+         "responses": ["BAJAJFINSV has the highest profit of 9577.7"],
+         "context": [""]
+        },
+        {"tag": "highest profit of Maruti",
+         "patterns": ["What is the highest profit of Maruti" ],
+         "responses": ["MARUTI has the highest profit of 6975.3"],
+         "context": [""]
+        },
+        {"tag": "highest profit of Ultra Cem CO",
+         "patterns": ["What is the highest profit of Ultra Cement CO" ],
+         "responses": ["ULTRACEMCO has the highest profit of 6767.5"],
+         "context": [""]
+        },
+        {"tag": "highest profit of Bajaj Finance",
+         "patterns": ["What is the highest profit of Bajaj Finance" ],
+         "responses": ["BAJFINANCE has the highest profit of 5179.4"],
+         "context": [""]
+        },
+        {"tag": "highest profit of DR Reddy",
+         "patterns": ["What is the highest profit of DR Reddy" ],
+         "responses": ["DRREDDY has the highest profit of 4427.3"],
+         "context": [""]
+        },
+        {"tag": "highest profit of Bajaj Auto",
+         "patterns": ["What is the highest profit of Bajaj Auto" ],
+         "responses": ["BAJAJ_AUTO has the highest profit of 3579.7"],
+         "context": [""]
+        },
+        {"tag": "highest profit of Britannia",
+         "patterns": ["What is the highest profit of Britannia" ],
+         "responses": ["BRITANNIA has the highest profit of 3534.15"],
+         "context": [""]
+        },
+        {"tag": "highest profit of TCS",
+         "patterns": ["What is the highest profit of TCS" ],
+         "responses": ["TCS has the highest profit of 3086.95"],
+         "context": [""]
+        },
+        {"tag": "prev_close of SHREECEM",
+         "patterns": ["What was the previous close of SHREECEM?", "At what value did SHREECEM close for the day?"],
+         "responses": ["SHREECEM closed at 29094.45"],
+         "context": [""]
+        },
+        {"tag": "prev_close of nestle india",
+         "patterns": ["What was the previous close of nestle india?", "At what value did NESTLEIND close for the day?"],
+         "responses": ["NESTLEIND closed at 17165"],
+         "context": [""]
+        },
+        {"tag": "prev_close of Bajaj finserv",
+         "patterns": ["What was the previous close of Bajaj Finserv?", "At what value did BAJAJFINSV close for the day?"],
+         "responses": ["BAJAJFINSV closed at 9502.35"],
+         "context": [""]
+        },
+        {"tag": "prev_close of maruti",
+         "patterns": ["What was the previous close of MARUTI?", "At what value did MARUTI close for the day?"],
+         "responses": ["MARUTI closed at 7186.25"],
+         "context": [""]
+        },
+        {"tag": "prev_close of Ultra Cement Co",
+         "patterns": ["What was the previous close of ULTRACEMCO?", "At what value did ULTRACEMCO close for the day?"],
+         "responses": ["ULTRACEMCO closed at 6939.1"],
+         "context": [""]
+        },
+        {"tag": "prev_close of Bajaj Finance",
+         "patterns": ["What was the previous close of BAJFINANCE?", "At what value did BAJAJFINANCE close for the day?"],
+         "responses": ["BAJFINANCE closed at 5378.8"],
+         "context": [""]
+        },
+        {"tag": "prev_close of Dr Reddy",
+         "patterns": ["What was the previous close of DRREDDY?", "At what value did DRREDDY close for the day?"],
+         "responses": ["DRREDDY closed at 4406"],
+         "context": [""]
+        },
+        {"tag": "prev_close of bajaj auto",
+         "patterns": ["What was the previous close of BAJAJ AUTO?", "At what value did BAJAJ AUTO close for the day?"],
+         "responses": ["BAJAJ-AUTO closed at 3666.7"],
+         "context": [""]
+        },
+        {"tag": "prev_close of Britannia",
+         "patterns": ["What was the previous close of BRITANNIA?", "At what value did BRITANNIA close for the day?"],
+         "responses": ["BRITANNIA closed at 3616"],
+         "context": [""]
+        },
+        {"tag": "prev_close of TCS",
+         "patterns": ["What was the previous close of TCS?", "At what value did TCS close for the day?"],
+         "responses": ["TCS closed at 3158.55"],
+         "context": [""]
+        },
+        {"tag": "high of SHREECEM",
+         "patterns": ["What was the highest value for SHREECEM during the day?" ],
+         "responses": ["The highest for SHREECEM was 29660"],
+         "context": [""]
+        },
+        {"tag": "high of Nestle india",
+         "patterns": ["What was the highest value for NESTLEIND during the day?" ],
+         "responses": ["The highest for NESTLEIND was 17299"],
+         "context": [""]
+        },
+        {"tag": "high of Bajaj Finserv",
+         "patterns": ["What was the highest value for BAJAJFINSV during the day?" ],
+         "responses": ["The highest for BAJAJFINSV was 9715.6"],
+         "context": [""]
+        },
+        {"tag": "high of Maruti",
+         "patterns": ["What was the highest value for Maruti during the day?" ],
+         "responses": ["The highest for MARUTI was 7158.4"],
+         "context": [""]
+        },
+        {"tag": "high of Ultra Cement Co",
+         "patterns": ["What was the highest value for ULTRACEMCO during the day?" ],
+         "responses": ["The highest for ULTRACEMCO was 6944"],
+         "context": [""]
+        },
+        {"tag": "high of Bajaj Finance",
+         "patterns": ["What was the highest value for BAJFINANCE during the day?" ],
+         "responses": ["The highest for BAJFINANCE was 5374"],
+         "context": [""]
+        },
+        {"tag": "high of DR Reddy",
+         "patterns": ["What was the highest value for DR Reddy during the day?" ],
+         "responses": ["The highest for DRREDDY was 4527.45"],
+         "context": [""]
+        },
+        {"tag": "high of Bajaj-Auto",
+         "patterns": ["What was the highest value for BAJAJ-AUTO during the day?" ],
+         "responses": ["The highest for BAJAJ-AUTO was 3683.6"],
+         "context": [""]
+        },
+        {"tag": "high of BRITANNIA",
+         "patterns": ["What was the highest value for BRITANNIA during the day?" ],
+         "responses": ["The highest for BRITANNIA was 3655"],
+         "context": [""]
+        },
+        {"tag": "high of TCS",
+         "patterns": ["What was the highest value for TCS during the day?" ],
+         "responses": ["The highest for TCS was 3205"],
+         "context": [""]
+        },
+        {"tag": "low of SHREECEM",
+         "patterns": ["What was the lowest value for SHREECEM during the day?"],
+         "responses": ["The lowest for SHREECEM was 28756"],
+         "context": [""]
+        },
+        {"tag": "low of NESTLEIND",
+         "patterns": ["What was the lowest value for NESTLEIND during the day?"],
+         "responses": ["The lowest for NESTLEIND was 16951.55"],
+         "context": [""]
+        },
+        {"tag": "low of Bajaj finserv",
+         "patterns": ["What was the lowest value for BAJAJFINSV during the day?"],
+         "responses": ["The lowest for BAJAJFINSV was 9450"],
+         "context": [""]
+        },
+        {"tag": "low of Maruti",
+         "patterns": ["What was the lowest value for MARUTI during the day?"],
+         "responses": ["The lowest for MARUTI was 7049.95"],
+         "context": [""]
+        },
+        {"tag": "low of Ultra Cement Co",
+         "patterns": ["What was the lowest value for ULTRACEMCO during the day?"],
+         "responses": ["The lowest for ULTRACEMCO was 6840"],
+         "context": [""]
+        },
+        {"tag": "low of Bajaj Finance",
+         "patterns": ["What was the lowest value for BAJFINANCE during the day?"],
+         "responses": ["The lowest for BAJFINANCE was 5260"],
+         "context": [""]
+        },
+        {"tag": "low of DR Reddy",
+         "patterns": ["What was the lowest value for DRREDDY during the day?"],
+         "responses": ["The lowest for DRREDDY was 4421.05"],
+         "context": [""]
+        },
+        {"tag": "low of Bajaj-Auto",
+         "patterns": ["What was the lowest value for Bajaj-Auto during the day?"],
+         "responses": ["The lowest for BAJAJ-AUTO was 3612.05"],
+         "context": [""]
+        },
+        {"tag": "low of Britannia",
+         "patterns": ["What was the lowest value for BRITANNIA during the day?"],
+         "responses": ["The lowest for BRITANNIA was 3592.5"],
+         "context": [""]
+        },
+        {"tag": "low of TCS",
+         "patterns": ["What was the lowest value for TCS during the day?"],
+         "responses": ["The lowest for TCS was 3132"],
+         "context": [""]
+        },
+        {"tag": "last of SHREECEM",
+         "patterns": ["When was the value for SHREECEM at last closing?"],
+         "responses": ["phew!! It was 29410"],
+         "context": [""]
+        },
+        {"tag": "last of Nestle India",
+         "patterns": ["When was the value for NESTLEIND at last closing?"],
+         "responses": ["phew!! It was 17100"],
+         "context": [""]
+        },
+        {"tag": "last of Bajaj Finserv",
+         "patterns": ["When was the value for BAJAJFINSV at last closing?"],
+         "responses": ["phew!! It was 9677.85"],
+         "context": [""]
+        },
+        {"tag": "last of Maruti",
+         "patterns": ["When was the value for MARUTI at last closing?"],
+         "responses": ["phew!! It was 7060"],
+         "context": [""]
+        },
+        {"tag": "last of Ultra Cement CO",
+         "patterns": ["When was the value for ULTRACEMCO at last closing?"],
+         "responses": ["phew!! It was 6840"],
+         "context": [""]
+        },
+        {"tag": "last of Bajaj Finance",
+         "patterns": ["When was the value for BAJFINANCE at last closing?"],
+         "responses": ["phew!! It was 5278"],
+         "context": [""]
+        },
+        {"tag": "last of DR Reddy",
+         "patterns": ["When was the value for DRREDDY at last closing?"],
+         "responses": ["phew!! It was 4515"],
+         "context": [""]
+        },
+        {"tag": "last of Bajaj-Auto",
+         "patterns": ["When was the value for Bajaj-Auto at last closing?"],
+         "responses": ["phew!! It was 3680.4"],
+         "context": [""]
+        },
+        {"tag": "last of Britannia",
+         "patterns": ["When was the value for BRITANNIA at last closing?"],
+         "responses": ["phew!! It was 3610"],
+         "context": [""]
+        },
+        {"tag": "last of TCS",
+         "patterns": ["When was the value for TCS at last closing?"],
+         "responses": ["phew!! It was 3175.3"],
+         "context": [""]
+        },
+        {"tag": "volume of SHREECEM",
+         "patterns": ["What was the volume for SHREECEM?", "What was the volume value for SHREECEM?"],
+         "responses": ["It was 82764"],
+         "context": [""]
+        },
+        {"tag": "volume of Nestle india",
+         "patterns": ["What was the volume for NESTLEIND?", "What was the volume value for NESTLEIND?"],
+         "responses": ["It was 110331"],
+         "context": [""]
+        },
+        {"tag": "volume of Bajaj Finserv",
+         "patterns": ["What was the volume for Bajaj Finserv?", "What was the volume value for BAJAJFINSV?"],
+         "responses": ["It was 424140"],
+         "context": [""]
+        },
+        {"tag": "volume of Maruti",
+         "patterns": ["What was the volume for MARUTI?", "What was the volume value for MARUTI?"],
+         "responses": ["It was 457147"],
+         "context": [""]
+        },
+        {"tag": "volume of Ultra Cement Co",
+         "patterns": ["What was the volume for Ultra Cement Co?", "What was the volume value for Ultra Cement Co?"],
+         "responses": ["It was 716392"],
+         "context": [""]
+        },
+        {"tag": "volume of Bajaj Finance",
+         "patterns": ["What was the volume for BAJFINANCE?", "What was the volume value for BAJFINANCE?"],
+         "responses": ["It was 1737643"],
+         "context": [""]
+        },
+        {"tag": "volume of DR Reddy",
+         "patterns": ["What was the volume for DRREDDY?", "What was the volume value for DRREDDY?"],
+         "responses": ["It was 866350"],
+         "context": [""]
+        },
+        {"tag": "volume of Bajaj-Auto",
+         "patterns": ["What was the volume for BAJAJ-AUTO?", "What was the volume value for BAJAJ-AUTO?"],
+         "responses": ["It was 694645"],
+         "context": [""]
+        },
+        {"tag": "volume of Britannia",
+         "patterns": ["What was the volume for Britannia?", "What was the volume value for BRITANNIA?"],
+         "responses": ["It was 441583"],
+         "context": [""]
+        },
+        {"tag": "volume of TCS",
+         "patterns": ["What was the volume for TCS?", "What was the volume value for TCS?"],
+         "responses": ["It was 3530069"],
+         "context": [""]
+        },
+        {"tag": "VWAP of SHREECEM",
+         "patterns": ["What was the VWAP for SHREECEM?" ],
+         "responses": ["The VWAP for SHREECEM was 29402.63"],
+         "context": [""]
+        },
+        {"tag": "VWAP of Nestle India",
+         "patterns": ["What was the VWAP for Nestle India?" ],
+         "responses": ["The VWAP for NESTLEIND was 17149.28"],
+         "context": [""]
+        },
+        {"tag": "VWAP of Bajaj Finserv",
+         "patterns": ["What was the VWAP for BAJAJFINSV?" ],
+         "responses": ["The VWAP for BAJAJFINSV was 9621.86"],
+         "context": [""]
+        },
+        {"tag": "VWAP of Maruti",
+         "patterns": ["What was the VWAP for MARUTI?" ],
+         "responses": ["The VWAP for MARUTI was 7093.04"],
+         "context": [""]
+        },
+        {"tag": "VWAP of Ultra Cement Co",
+         "patterns": ["What was the VWAP for ULTRACEMCO?" ],
+         "responses": ["The VWAP for ULTRACEMCO was 6887.9"],
+         "context": [""]
+        },
+        {"tag": "VWAP of Bajaj Finance",
+         "patterns": ["What was the VWAP for BAJFINANCE?" ],
+         "responses": ["The VWAP for BAJFINANCE was 5298.86"],
+         "context": [""]
+        },
+        {"tag": "VWAP of DR Reddy",
+         "patterns": ["What was the VWAP for DRREDDDY?" ],
+         "responses": ["The VWAP for DRREDDY was 4503.31"],
+         "context": [""]
+        },
+        {"tag": "VWAP of Bajaj-Auto",
+         "patterns": ["What was the VWAP for BAJAJ-AUTO?" ],
+         "responses": ["The VWAP for BAJAJ-AUTO was 3646.38"],
+         "context": [""]
+        },
+        {"tag": "VWAP of Britannia",
+         "patterns": ["What was the VWAP for BRITANNIA?" ],
+         "responses": ["The VWAP for BRITANNIA was 3629.85"],
+         "context": [""]
+        },
+        {"tag": "VWAP of TCS",
+         "patterns": ["What was the VWAP for TCS?" ],
+         "responses": ["The VWAP for TCS was 3177.88"],
+         "context": [""]
+        },
+        {"tag": "turnover of SHREECEM",
+         "patterns": ["Seriously, What was the turnover of SHREECEM?", "What was the turnover of SHREECEM?"],
+         "responses": ["It was a whopping 243347890935000 Indian Rupees"],
+         "context": [""]
+        },
+        {"tag": "turnover of Nestle India",
+         "patterns": ["Seriously, What was the turnover of NESTLEIND?", "What was the turnover of NESTLEIND?"],
+         "responses": ["It was a whopping 189209758000000 Indian Rupees"],
+         "context": [""]
+        },
+        {"tag": "turnover of Bajaj Finserv",
+         "patterns": ["Seriously, What was the turnover of BAJAJFINSV?", "What was the turnover of BAJAJFINSV?"],
+         "responses": ["It was a whopping 408101528550000 Indian Rupees"],
+         "context": [""]
+        },
+        {"tag": "turnover of Maruti",
+         "patterns": ["Seriously, What was the turnover of MARUTI?", "What was the turnover of MARUTI?"],
+         "responses": ["It was a whopping 324256277415000 Indian Rupees"],
+         "context": [""]
+        },
+        {"tag": "turnover of ULTRACEMCO",
+         "patterns": ["Seriously, What was the turnover of ULTRACEMCO?", "What was the turnover of ULTRACEMCO?"],
+         "responses": ["It was a whopping 493443811690000 Indian Rupees"],
+         "context": [""]
+        },
+        {"tag": "turnover of BAJFINANCE",
+         "patterns": ["Seriously, What was the turnover of BAJFINANCE?", "What was the turnover of BAJFINANCE?"],
+         "responses": ["It was a whopping 920752985390000 Indian Rupees"],
+         "context": [""]
+        },
+        {"tag": "turnover of DRREDDY",
+         "patterns": ["Seriously, What was the turnover of DRREDDY?", "What was the turnover of DRREDDY?"],
+         "responses": ["It was a whopping 390144560660000 Indian Rupees"],
+         "context": [""]
+        },
+        {"tag": "turnover of Bajaj-Auto",
+         "patterns": ["Seriously, What was the turnover of BAJAJ-AUTO?", "What was the turnover of BAJAJ-AUTO?"],
+         "responses": ["It was a whopping 253293742505000 Indian Rupees"],
+         "context": [""]
+        },
+        {"tag": "turnover of BRITANNIA",
+         "patterns": ["Seriously, What was the turnover of BRITANNIA?", "What was the turnover of BRITANNIA?"],
+         "responses": ["It was a whopping 160287882845000 Indian Rupees"],
+         "context": [""]
+        },
+        {"tag": "turnover of TCS",
+         "patterns": ["Seriously, What was the turnover of TCS?", "What was the turnover of TCS?"],
+         "responses": ["It was a whopping 1121813515305000 Indian Rupees"],
+         "context": [""]
+        },
+        {"tag": "trade of SHREECEM",
+         "patterns": ["How many trades did SHREECEM carryout during the day?"],
+         "responses": ["SHREECEM carried out trades close to 24 the exact being: 23094"],
+         "context": [""]
+        },
+        {"tag": "trade of Nestle India",
+         "patterns": ["How many trades did NESTLEIND carryout during the day?"],
+         "responses": ["NESTLEIND carried out trades close to 24 the exact being: 25670"],
+         "context": [""]
+        },
+        {"tag": "trade of Bajaj Finserv",
+         "patterns": ["How many trades did BAJAJFINSV carryout during the day?"],
+         "responses": ["BAJAJFINSV carried out trades close to 24 the exact being: 57784"],
+         "context": [""]
+        },
+        {"tag": "trade of Maruti",
+         "patterns": ["How many trades did MARUTI carryout during the day?"],
+         "responses": ["MARUTI carried out trades close to 24 the exact being: 63062"],
+         "context": [""]
+        },
+        {"tag": "trade of Ultracem Co",
+         "patterns": ["How many trades did ULTRACEMCO carryout during the day?"],
+         "responses": ["ULTRACEMCO carried out trades close to 24 the exact being: 63493"],
+         "context": [""]
+        },
+        {"tag": "trade of Bajaj Finance",
+         "patterns": ["How many trades did BAJFINANCE carryout during the day?"],
+         "responses": ["BAJFINANCE carried out trades close to 24 the exact being: 107183"],
+         "context": [""]
+        },
+        {"tag": "trade of DRREDDY",
+         "patterns": ["How many trades did DRREDDY carryout during the day?"],
+         "responses": ["DRREDDY carried out trades close to 24 the exact being: 77755"],
+         "context": [""]
+        },
+        {"tag": "trade of Bajaj-Auto",
+         "patterns": ["How many trades did BAJAJ-AUTO carryout during the day?"],
+         "responses": ["BAJAJ-AUTO carried out trades close to 24 the exact being: 45810"],
+         "context": [""]
+        },
+        {"tag": "trade of Britannia",
+         "patterns": ["How many trades did BRITANNIA carryout during the day?"],
+         "responses": ["BRITANNIA carried out trades close to 24 the exact being: 38091"],
+         "context": [""]
+        },
+        {"tag": "trade of TCS",
+         "patterns": ["How many trades did TCS carryout during the day?"],
+         "responses": ["TCS carried out trades close to 24 the exact being: 156653"],
+         "context": [""]
+        },
+        {"tag": "highest_loss",
+         "patterns": ["What was the highest loss for a company during the day?", "Of all the losses what was the highest loss for any company?"],
+         "responses": ["Sorry Sir, I haven't calculated that. Maybe I will calculate it the next time."],
+         "context": [""]
+          }
+   ]
+}
